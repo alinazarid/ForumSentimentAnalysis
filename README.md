@@ -3,7 +3,7 @@
 
 Automatically triaging posts in a forum aimed at users who struggle with mental health can be an efficient way to provide necessary support. We experiment with three models based on different machine learning techniques and adopt distinct feature sets. We observe that the model, which takes into account the sequential property of the dataset, outperforms other models.
 
-The natural language of the dataset is English. This data was released on May 07, 2017 and provided to our team by Dr. Casey Kennington. The data includes:
+The natural language of the dataset is English. This data was released on May 07, 2017 and provided to our team by [Dr. Casey Kennington](caseykennington@boisestate.edu). The data includes:
 * Training data: The XML formatted posts that can be used for training the algorithm.
 * Testing data: The XML formatted posts that can be used for evaluation the algorithm.
 * labels.tsv: This file contains a tab separated list of post annotations. The columns are: Post (message) ID, Triage label and Fine-grained triage label.
@@ -122,3 +122,7 @@ The accuracy for each section is reported under "Evaluation".
 ### Report.pdf
 
 A comprehensive report of the project
+
+Credits go to:
+alinazarid@gmail.com
+benedettatorsi@u.boisestate.edu
